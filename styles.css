@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    color: #4a4a4a;
+    text-align: center;
+}
+
+.perfect_pizza {
+    background-color: #ff6347;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.pizzas {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.pizzas div {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 30%;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.pizzas img {
+    display: block;
+    margin: 0 auto 10px;
+}
+
+.Shopping_cart {
+    background-color: #ffef96;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.Shopping_cart h1 {
+    color: #ff6347;
+}
+
+.Shopping_cart button {
+    background-color: #ff6347;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.Shopping_cart button:hover {
+    background-color: #e5533c;
+}
+
+.contact_us {
+    background-color: #ffef96;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.contact_us div {
+    text-align: center;
+    margin: 5px 0;
+}
+
+.small-cart, .medium-cart, .large-cart {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+}
+
+small-cart span, .medium-cart span, .large-cart span {
+    margin: 0 10px;
+}
+
+button, input {
+    font-size: 1rem;
+}
